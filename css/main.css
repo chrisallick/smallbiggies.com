@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'CubanoRegular';
+    src: url('cubano-regular-webfont.eot');
+    src: url('cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cubano-regular-webfont.woff') format('woff'),
+         url('cubano-regular-webfont.ttf') format('truetype'),
+         url('cubano-regular-webfont.svg#CubanoRegular') format('svg');
+    font-weight: normal;
+    color: #fff;
+    font-style: normal; }
+
+
+html, body { width: 100%; height: 100%; font-family: 'CubanoRegular'; font-size:14px; background-color:#00ff9c; background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+
+#the-biggie { position: absolute; top: 0px; left: 0px; }
+
+#logos { position: absolute; top: 35px; left: 40px; width: 79px; height: 130px; }
+
+#logos #logo { position: absolute; display: block; left: 0px; top: 0px; width:79px; height: 86px; }
+#logos #logohover { display: none; }
+
+#logos:hover #logo { display: none; }
+#logos:hover #logohover {  position: absolute; display: block; left: 12px; top:-10px; width: 60px; height: 100px; }
+
+#reload { position: absolute; display: block; right: 50px; top: 50px; width: auto; height: auto; }
+
+h1 {font-family:'CubanoRegular'; color: #fff; size: 12px;}
+
+#share { position:absolute; float:left; left:120px; bottom:15px; width: 200px; height: 40px;  text-align: left; }
+#share:hover {opacity:0.5; cursor:pointer;}
+
+.social-button-container {position: absolute; right: 50px; bottom: 50px; width: auto; overflow: hidden; }
+
+.social-button {float: right; bottom: 50px; width: 78px; height: 20px;}
+
+.large { font-size:20px; position: absolute; float:left; left:50px; font-family:'CubanoRegular'; color: #fff; z-index:-10; top:50%;}
+
+a:link {
+color: #000;
+}
+
+a:visited {
+color: #000;
+}
+
+a:hover {
+color: #FFF;
+}
+
+a:active {
+color: #FFF;
+}
