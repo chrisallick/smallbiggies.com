@@ -85,11 +85,15 @@ var color_index = 0;
 var player;
 var done = false;
 
-$(window).load(function(){
+$(window).load(function() {
 	var tag = document.createElement('script');
 	tag.src = "http://www.youtube.com/iframe_api";
 	var firstScriptTag = document.getElementsByTagName('script')[0];
 	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	$("#logo").animate({
+		opacity: 1
+	});
 });
 
 $(document).ready(function() {
