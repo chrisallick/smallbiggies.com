@@ -15,7 +15,7 @@ changeVideo = function() {
 		video_index = 0;
 	}
 
-    var new_url = "http://www.youtube.com/embed/"+vids[video_index]+"?modestbranding=1&nologo=0&rel=0&autoplay=0&controls=0&loop=1&rel=0&showinfo=0&enablejsapi=1&origin=http://digital.frommother.com";
+    var new_url = "http://www.youtube.com/embed/"+vids[video_index]+"?modestbranding=1&nologo=0&rel=0&autoplay=0&controls=0&loop=1&rel=0&showinfo=0&enablejsapi=1&origin=http://smallbiggies.com";
     $("#the-biggie").attr("src",new_url);
 
 	player = new YT.Player('the-biggie', {
