@@ -91,7 +91,7 @@ $(window).load(function() {
 	var firstScriptTag = document.getElementsByTagName('script')[0];
 	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-	$("#logo").animate({
+	$("#logos").animate({
 		opacity: 1
 	});
 });
