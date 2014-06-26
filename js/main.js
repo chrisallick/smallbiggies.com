@@ -74,7 +74,7 @@ function stopVideo() {
 	player.stopVideo();
 }
 
-var playListURL = 'http://gdata.youtube.com/feeds/api/playlists/PLiHYYnsAdhzgn5PNGylsYyE6DNleSGjbc?v=2&alt=json&callback=?';
+var playListURL = 'http://gdata.youtube.com/feeds/api/playlists/PLgjtIYQ2L5vheL-IeRHSFnfKQMIWEVe_8?v=2&alt=json&callback=?';
 var videoURL= 'http://www.youtube.com/watch?v=';
 var vids = new Array();
 var video_index = 0;
